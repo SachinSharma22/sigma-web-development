@@ -1,33 +1,64 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
     <title>Slack AI | Create your account on Slack</title>
-</head>
-<body>
-    <figure>
-        <img src="./images/slack_logo.png" alt="slack_logo_image">
-    </figure>
+  </head>
+  <body>
+    <a href="./index.html">
+      <img src="./images/slack_logo.png" alt="slack_logo_image" />
+    </a>
     <form action="_blank">
-        <article>
-            <h1>Sign Up</h1>
-            <p>Please sign in to continue</p>
-        </article>
-        <article>
-            <input type="text" name="name" id="name" placeholder="Name" required>
-            <input type="email" name="email" id="email" placeholder="Email" required>
-            <input type="text" name="pass" id="pass" placeholder="Password" required>
-        </article>
-        <a href="#forget-password">Forget password?</a>
+      <article>
+        <h1>Sign Up</h1>
+        <p>Please sign in to continue</p>
+      </article>
+      <article>
+        <div class="user-name">
+          <i class="fa-solid fa-user"></i>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Name"
+            required
+          />
+        </div>
+        <div class="user-email">
+          <i class="fa-solid fa-envelope"></i>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email"
+            required
+          />
+        </div>
+        <div class="user-pass">
+          <i class="fa-solid fa-lock"></i>
+          <input
+            type="text"
+            name="pass"
+            id="pass"
+            placeholder="Password"
+            required
+          />
+        </div>
+      </article>
+      <a href="#forget-password">Forget password?</a>
 
-        <article>
-            <button type="submit">Sign Up</button>
-        </article>
+      <article>
+        <button type="submit">Sign Up</button>
+      </article>
 
-        <article>
-            <p>Already have an account? <a href="./login.html">click here</a></p>
-        </article>
+      <article>
+        <p>Already have an account? <a href="./login.html">click here</a></p>
+      </article>
     </form>
-</body>
+  </body>
 </html>

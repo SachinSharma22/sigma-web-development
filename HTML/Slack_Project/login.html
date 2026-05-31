@@ -1,33 +1,55 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
     <title>Slack AI | login</title>
-</head>
-<body>
-    <figure>
-        <img src="./images/slack_logo.png" alt="slack_logo">
-        <!-- <figcaption>slack logo for login on slack</figcaption> -->
-    </figure>
+  </head>
+  <body>
+    <a href="./index.html">
+      <img src="./images/slack_logo.png" alt="slack_logo" />
+      <!-- <figcaption>slack logo for login on slack</figcaption> -->
+    </a>
     <form action="_blank">
-        <header>
-            <h1>Login</h1>
-            <p>Please signin to continue</p>
-        </header>
-        <section>
-            <input type="email" name="email" id="email" placeholder="Email Id" required>
-            <input type="password" name="pass" id="pass" placeholder="Password" required>
-        </section>
-        <a href="#forgot-password">Forget password?</a>
+      <header>
+        <h1>Login</h1>
+        <p>Please signin to continue</p>
+      </header>
+      <section>
+        <div class="user-em">
+          <i class="fa-solid fa-envelope"></i>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email Id"
+            required
+          />
+        </div>
+        <div class="user-pass">
+          <i class="fa-solid fa-lock"></i>
+          <input
+            type="password"
+            name="pass"
+            id="pass"
+            placeholder="Password"
+            required
+          />
+        </div>
+      </section>
+      <a href="#forgot-password">Forget password?</a>
 
-        <article>
-            <button type="submit">Login</button>
-        </article>
+      <article>
+        <button type="submit">Login</button>
+      </article>
 
-        <article>
-            <p>Don't have an account? <a href="./signup.html">Click here</a></p>
-        </article>
+      <article>
+        <p>Don't have an account? <a href="./signup.html">Click here</a></p>
+      </article>
     </form>
-</body>
+  </body>
 </html>
