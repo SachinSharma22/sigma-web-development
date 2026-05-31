@@ -6,38 +6,44 @@
     <title>Slack | AI work platform and producitivty tools</title>
   </head>
   <body>
-    <nav>
-      <div>
-        <img src="./images/slack_logo.png" alt=" slack_logo" />
-        <ul>
-          <li>Features</li>
-          <li>Solutions</li>
-          <li>Enterpise</li>
-          <li>Resources</li>
-          <li>Pricing</li>
-        </ul>
-      </div>
-      <div>
-        <ul>
-          <li><a>sign in</a></li>
-          <li><button>Request a demo</button></li>
-          <li><button>Get started</button></li>
-        </ul>
-      </div>
-    </nav>
+    <header>
+      <nav>
+        <div>
+          <a href="#home">
+            <img src="./images/slack_logo.png" alt=" slack_logo" />
+          </a>
+          <ul>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#solutions">Solutions</a></li>
+            <li><a href="#enterprise">Enterprise</a></li>
+            <li><a href="#resources">Resources</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="nav-actions">
+            <a href="#signin">sign in</a>
+            <a href="#request-demo">Request a demo</a>
+            <a href="#get-started">Get started</a>
+          </div>
+        </div>
+      </nav>
+    </header>
 
     <!-- Hero Section -->
-    <div class="hero-section" id="hero">
-      <div>
-        <header>All your people and AI agents working together.</header>
-        <p>Slack connects your team. Slackbot multiplies what they can do.</p>
+    <main class="hero-section" id="hero">
+      <article>
+        <header>
+          <h2>All your people and AI agents working together.</h2>
+          <p>Slack connects your team. Slackbot multiplies what they can do.</p>
+        </header>
         <div>
-          <button>Get started</button>
-          <button>Find Your subscription</button>
+          <a href="#get-started">Get started</a>
+          <a href="#subscription">Find Your subscription</a>
         </div>
-      </div>
+      </article>
 
-      <div>
+      <article>
         <p>Trusted By Teams</p>
 
         <img height="200px" width="200px" src="./images/gm.png" alt=" gm" />
@@ -61,7 +67,7 @@
           alt=" stripe"
         />
         <img src="./images/ibm.png" alt=" ibm" />
-      </div>
+      </article>
 
       <div class="show">
         <video src="./images/A Slack channel shows.mp4"></video>
@@ -74,588 +80,635 @@
         <a href="#">Chat with clients</a>
         <a href="#">Automate Tasks</a>
       </div>
-    </div>
 
-    <!-- about -->
-    <div id="about" class="about">
-      <div>
-        <h1>Reimagine what’s possible with AI and agents.</h1>
-        <p>
-          AI in Slack doesn’t make you think, it helps you do. It summarises and
-          searches based on actual conversations, making every app and agent
-          more helpful and contextually aware than ever.
-        </p>
-      </div>
+      <!-- about -->
+      <section id="about" class="about">
+        <header>
+          <h1>Reimagine what’s possible with AI and agents.</h1>
+          <p>
+            AI in Slack doesn’t make you think, it helps you do. It summarises
+            and searches based on actual conversations, making every app and
+            agent more helpful and contextually aware than ever.
+          </p>
+        </header>
 
-      <div>
         <div>
-          <p>Updates deals just by asking Slackbot</p>
-          <a href="#">Summarise a conversation you missed</a>
-          <a href="#">Get fast answers with Claude</a>
-          <a href="#">Turn on AI note-taking in huddles</a>
-          <a href="#">Review code with GitHub Copilot</a>
-          <a href="#">Look up customer data in Agentforce</a>
+          <div>
+            <p>Updates deals just by asking Slackbot</p>
+            <a href="#">Summarise a conversation you missed</a>
+            <a href="#">Get fast answers with Claude</a>
+            <a href="#">Turn on AI note-taking in huddles</a>
+            <a href="#">Review code with GitHub Copilot</a>
+            <a href="#">Look up customer data in Agentforce</a>
+          </div>
+          <article>
+            <video src="./images/A Slack channel shows.mp4"></video>
+          </article>
+        </div>
+      </section>
+
+      <!-- New On Slack -->
+      <section class="new-features" id="new-features">
+        <div>
+          <h1>What's new in Slack</h1>
+          <a href="#">See all updates</a>
+        </div>
+
+        <!-- Cards  -->
+        <div class="cards">
+          <article class="card1" id="card1">
+            <div>
+              <img
+                height="200px"
+                width="200px"
+                src="./images/slackbot-skills.png"
+                alt="skills.png"
+              />
+            </div>
+            <div>
+              <a href="#">NEW FEATURES</a>
+              <h1>New Activity Tabs</h1>
+              <p>
+                Slackbot can do the work for you, and you don't need to tell it
+                twice
+              </p>
+            </div>
+          </article>
+          <article class="card2" id="card2">
+            <div>
+              <img
+                height="200px"
+                width="200px"
+                src="./images/slackbot-skills.png"
+                alt="skills.png"
+              />
+            </div>
+            <div>
+              <a href="#">NEW FEATURES</a>
+              <h1>New Activity Tabs</h1>
+              <p>
+                Slackbot can do the work for you, and you don't need to tell it
+                twice
+              </p>
+            </div>
+          </article>
+          <article class="card3" id="card3">
+            <figure>
+              <img
+                height="200px"
+                width="200px"
+                src="./images/slackbot-skills.png"
+                alt="skills.png"
+              />
+              <figcaption>slackbot Image</figcaption>
+            </figure>
+            <div>
+              <a href="#new-feature">NEW FEATURES</a>
+              <h1>New Activity Tabs</h1>
+              <p>
+                Slackbot can do the work for you, and you don't need to tell it
+                twice
+              </p>
+            </div>
+          </article>
+          <article class="card4" id="card4">
+            <div>
+              <img
+                height="200px"
+                width="200px"
+                src="./images/slackbot-skills.png"
+                alt="skills.png"
+              />
+            </div>
+            <div>
+              <a href="#">NEW FEATURES</a>
+              <h1>New Activity Tabs</h1>
+              <p>
+                Slackbot can do the work for you, and you don't need to tell it
+                twice
+              </p>
+            </div>
+          </article>
+          <article class="card5" id="card5">
+            <div>
+              <img
+                height="200px"
+                width="200px"
+                src="./images/slackbot-skills.png"
+                alt="skills.png"
+              />
+            </div>
+            <div>
+              <a href="#new-feature">NEW FEATURES</a>
+              <h1>New Activity Tabs</h1>
+              <p>
+                Slackbot can do the work for you, and you don't need to tell it
+                twice
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Second Nav -->
+      <section class="second-nav" id="second-nav">
+        <a href="#knowledge">Knowledge</a>
+        <a href="#people">People</a>
+        <a href="#process">Process</a>
+        <a href="#platform">Platform</a>
+      </section>
+
+      <!-- knowledge -->
+      <section
+        class="knowledge"
+        id="knowledge"
+        aria-labelledby="knowledge-heading"
+      >
+        <!-- Section Header -->
+        <header>
+          <h2 id="knowledge-heading">Give everyone instant context.</h2>
+          <p>
+            Get access to every file, decision and conversation, so you can
+            build on past work instead of recreating it.
+          </p>
+        </header>
+
+        <!-- Main Content -->
+        <div class="knowledge-content">
+          <!-- Feature Articles -->
+          <div class="knowledge-features">
+            <article>
+              <h3>Meet SlackBot: Your personal agent for work</h3>
+              <p>
+                Slackbot isn’t just any AI. It knows you and your team. It
+                coordinates work across your apps and agents so that one
+                conversation can get work done.
+              </p>
+              <a href="#">Learn more about Slackbot</a>
+            </article>
+
+            <article>
+              <h3>One search to rule them all</h3>
+              <p>
+                AI-powered search puts your company’s entire memory at your
+                fingertips.
+              </p>
+              <a href="#">Learn about AI-powered search</a>
+            </article>
+
+            <article>
+              <h3>Bring CRM data into conversations</h3>
+              <p>
+                Customer insights now live alongside conversations, helping
+                deals move forward faster.
+              </p>
+              <a href="#">Learn about Salesforce in Slack</a>
+            </article>
+
+            <article>
+              <h3>97 Minutes Saved Weekly</h3>
+              <p>
+                Average time users save each week with AI-powered Slack
+                features.
+              </p>
+            </article>
+          </div>
+
+          <!-- Supporting Image -->
+          <figure>
+            <img
+              src="./images/slackbot-email-calendar.png"
+              alt="Slackbot integrating email and calendar information"
+              width="200"
+              height="200"
+            />
+            <figcaption>
+              Slackbot connects information across tools and conversations.
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="people" id="people">
+        <div>
+          <h1>Give everyone instant context.</h1>
+          <p>
+            Get access to every file, decision and conversation, so you can
+            build on past work instead of recreating it.
+          </p>
         </div>
         <div>
+          <div>
+            <div>
+              <h1>Meet SlackBot: Your personal agent for work</h1>
+              <p>
+                Slackbot isn’t just any AI. It’s AI that knows you and your
+                team. It coordinates work across your apps and agents so that
+                one conversation can get work done.
+              </p>
+              <a href="#">Learn more about slackbot</a>
+            </div>
+            <div>
+              <h1>One Seach to rule them all</h1>
+              <p>
+                AI-powered search puts your company’s entire memory at your
+                fingertips.
+              </p>
+              <a href="#">Learn about AI-powered search</a>
+            </div>
+            <div>
+              <h1>Bring CRM data to the conversations</h1>
+              <p>
+                Customer insights now live alongside conversations, so deals
+                keep moving forward
+              </p>
+              <a href="#">Learn about salesforce in slack</a>
+            </div>
+            <div>
+              <h1>97 mins</h1>
+              <p>Average time that users can save weekly with AI in Slack1</p>
+            </div>
+          </div>
+          <div>
+            <img
+              height="200px"
+              width="200px"
+              src="./images/slackbot-email-calendar.png"
+              alt="emails"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Process -->
+      <section class="process" id="process">
+        <div>
+          <h1>Give everyone instant context.</h1>
+          <p>
+            Get access to every file, decision and conversation, so you can
+            build on past work instead of recreating it.
+          </p>
+        </div>
+        <div>
+          <div>
+            <div>
+              <h1>Meet SlackBot: Your personal agent for work</h1>
+              <p>
+                Slackbot isn’t just any AI. It’s AI that knows you and your
+                team. It coordinates work across your apps and agents so that
+                one conversation can get work done.
+              </p>
+              <a href="#">Learn more about slackbot</a>
+            </div>
+            <div>
+              <h1>One Seach to rule them all</h1>
+              <p>
+                AI-powered search puts your company’s entire memory at your
+                fingertips.
+              </p>
+              <a href="#">Learn about AI-powered search</a>
+            </div>
+            <div>
+              <h1>Bring CRM data to the conversations</h1>
+              <p>
+                Customer insights now live alongside conversations, so deals
+                keep moving forward
+              </p>
+              <a href="#">Learn about salesforce in slack</a>
+            </div>
+            <div>
+              <h1>97 mins</h1>
+              <p>Average time that users can save weekly with AI in Slack1</p>
+            </div>
+          </div>
+          <div>
+            <img
+              height="200px"
+              width="200px"
+              src="./images/slackbot-email-calendar.png"
+              alt="emails"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!--  Platform -->
+      <section class="platform" id="platform">
+        <div>
+          <h1>Give everyone instant context.</h1>
+          <p>
+            Get access to every file, decision and conversation, so you can
+            build on past work instead of recreating it.
+          </p>
+        </div>
+        <div>
+          <div>
+            <div>
+              <h1>Meet SlackBot: Your personal agent for work</h1>
+              <p>
+                Slackbot isn’t just any AI. It’s AI that knows you and your
+                team. It coordinates work across your apps and agents so that
+                one conversation can get work done.
+              </p>
+              <a href="#">Learn more about slackbot</a>
+            </div>
+            <div>
+              <h1>One Seach to rule them all</h1>
+              <p>
+                AI-powered search puts your company’s entire memory at your
+                fingertips.
+              </p>
+              <a href="#">Learn about AI-powered search</a>
+            </div>
+            <div>
+              <h1>Bring CRM data to the conversations</h1>
+              <p>
+                Customer insights now live alongside conversations, so deals
+                keep moving forward
+              </p>
+              <a href="#">Learn about salesforce in slack</a>
+            </div>
+            <div>
+              <h1>97 mins</h1>
+              <p>Average time that users can save weekly with AI in Slack1</p>
+            </div>
+          </div>
+          <div>
+            <img
+              height="200px"
+              width="200px"
+              src="./images/slackbot-email-calendar.png"
+              alt="emails"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- more about -->
+      <div>
+        <div>
+          <h1>The most innovative companies run their business in Slack.</h1>
+        </div>
+        <div>
+          <!-- Add four videos here -->
           <video src="./images/A Slack channel shows.mp4"></video>
         </div>
-      </div>
-    </div>
-
-    <!-- New On Slack -->
-    <div class="new-slack" id="new-slack">
-      <div>
-        <h1>What's new in Slack</h1>
-        <a href="#">See all updates</a>
-      </div>
-
-      <!-- Cards  -->
-      <div class="cards">
-        <div class="card1" id="card1">
-          <div>
-            <img
-              height="200px"
-              width="200px"
-              src="./images/slackbot-skills.png"
-              alt="skills.png"
-            />
-          </div>
-          <div>
-            <a href="#">NEW FEATURES</a>
-            <h1>New Activity Tabs</h1>
-            <p>
-              Slackbot can do the work for you, and you don't need to tell it
-              twice
-            </p>
-          </div>
-        </div>
-        <div class="card2" id="card2">
-          <div>
-            <img
-              height="200px"
-              width="200px"
-              src="./images/slackbot-skills.png"
-              alt="skills.png"
-            />
-          </div>
-          <div>
-            <a href="#">NEW FEATURES</a>
-            <h1>New Activity Tabs</h1>
-            <p>
-              Slackbot can do the work for you, and you don't need to tell it
-              twice
-            </p>
-          </div>
-        </div>
-        <div class="card3" id="card3">
-          <div>
-            <img
-              height="200px"
-              width="200px"
-              src="./images/slackbot-skills.png"
-              alt="skills.png"
-            />
-          </div>
-          <div>
-            <a href="#">NEW FEATURES</a>
-            <h1>New Activity Tabs</h1>
-            <p>
-              Slackbot can do the work for you, and you don't need to tell it
-              twice
-            </p>
-          </div>
-        </div>
-        <div class="card4" id="card4">
-          <div>
-            <img
-              height="200px"
-              width="200px"
-              src="./images/slackbot-skills.png"
-              alt="skills.png"
-            />
-          </div>
-          <div>
-            <a href="#">NEW FEATURES</a>
-            <h1>New Activity Tabs</h1>
-            <p>
-              Slackbot can do the work for you, and you don't need to tell it
-              twice
-            </p>
-          </div>
-        </div>
-        <div class="card5" id="card5">
-          <div>
-            <img
-              height="200px"
-              width="200px"
-              src="./images/slackbot-skills.png"
-              alt="skills.png"
-            />
-          </div>
-          <div>
-            <a href="#">NEW FEATURES</a>
-            <h1>New Activity Tabs</h1>
-            <p>
-              Slackbot can do the work for you, and you don't need to tell it
-              twice
-            </p>
-          </div>
+        <div>
+          <a href="#get-started">GET STARTED</a>
+          <a href="#subscription">FIND YOUR SUBSCRIPTION</a>
         </div>
       </div>
-    </div>
 
-    <!-- Second Nav -->
-    <div>
-      <button>Knowledge</button>
-      <button>People</button>
-      <button>Process</button>
-      <button>Platform</button>
-    </div>
+      <!-- Testemonial -->
+      <section class="testemonial" id="testemonial">
+        <header>
+          <h2>We’re in the business of growing businesses.</h2>
+        </header>
+        <div>
+          <article class="teste-card1">
+            <h1>90%</h1>
+            <p>
+              of users say that Slack helps them to stay more connected<sup
+                >4</sup
+              >
+            </p>
+          </article>
+          <article class="teste-card2">
+            <h1>43</h1>
+            <p>The average number of apps used by teams in Slack<sup>3</sup></p>
+          </article>
+          <article class="teste-card3">
+            <h1>87%</h1>
+            <p>
+              of users say that Slack helps them to collaborate more
+              efficiently<sup>4</sup>
+            </p>
+          </article>
+        </div>
+      </section>
 
-    <!-- knowledge -->
-    <div class="knowledge" id="knowledge">
-      <div>
-        <h1>Give everyone instant context.</h1>
+      <!-- People Loved Part -->
+      <section class="loved">
+        <article>
+          <h2>Millions of people love to work in Slack.</h2>
+        </article>
+        <div>
+          <div>
+            <article>
+              <h1>700M</h1>
+              <p>messages sent daily<sup>3</sup></p>
+            </article>
+            <article>
+              <h1>3M</h1>
+              <p>
+                Slack Connect users working directly with external teams each
+                week<sup>3</sup>
+              </p>
+            </article>
+            <article>
+              <h1>4M</h1>
+              <p>daily workflows<sup>3</sup></p>
+            </article>
+            <article>
+              <h1>1.7M</h1>
+              <p>apps actively used each week<sup>3</sup></p>
+            </article>
+          </div>
+
+          <!-- This div is for vertical line -->
+          <div></div>
+
+          <div>
+            <header>
+              <h3>Don’t just take our word for it.</h3>
+              <p>Slack is a leader in over 303 G2 market reports.</p>
+            </header>
+            <div>
+              <figure>
+                <img
+                  height="200px"
+                  width="200px"
+                  src="./images/G2_Leader_mid_market_spring_2026.png"
+                  alt=""
+                />
+                <figcaption>Spring leader mid market journey</figcaption>
+              </figure>
+              <figure>
+                <img
+                  height="200px"
+                  width="200px"
+                  src="./images/G2_Leader_mid_market_spring_2026.png"
+                  alt=""
+                />
+                <figcaption>Spring leader mid market journey</figcaption>
+              </figure>
+              <figure>
+                <img
+                  height="200px"
+                  width="200px"
+                  src="./images/G2_Leader_mid_market_spring_2026.png"
+                  alt=""
+                />
+                <figcaption>Spring leader mid market journey</figcaption>
+              </figure>
+              <figure>
+                <img
+                  height="200px"
+                  width="200px"
+                  src="./images/G2_Leader_mid_market_spring_2026.png"
+                  alt=""
+                />
+                <figcaption>Spring leader mid market journey</figcaption>
+              </figure>
+              <figure>
+                <img
+                  height="200px"
+                  width="200px"
+                  src="./images/G2_Leader_mid_market_spring_2026.png"
+                  alt=""
+                />
+                <figcaption>Spring leader mid market journey</figcaption>
+              </figure>
+              <figure>
+                <img
+                  height="200px"
+                  width="200px"
+                  src="./images/G2_Leader_mid_market_spring_2026.png"
+                  alt=""
+                />
+                <figcaption>Spring leader mid market journey</figcaption>
+              </figure>
+              <figure>
+                <img
+                  height="200px"
+                  width="200px"
+                  src="./images/G2_Leader_mid_market_spring_2026.png"
+                  alt=""
+                />
+                <figcaption>Spring leader mid market journey</figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Slack DEEP DIVE -->
+      <section class="deep-dive">
+        <div>
+          <h2>Your Slack deep dive starts here.</h2>
+        </div>
+        <div>
+          <article class="dd-card1">
+            <div>
+              <img
+                height="200px"
+                width="200px"
+                src="./images/create-new-view.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <p>Future Of works</p>
+              <h1>The cost of businesses as usual in the AI era.</h1>
+            </div>
+            <div>Learn More</div>
+          </article>
+          <article class="dd-card2">
+            <div>
+              <img
+                height="200px"
+                width="200px"
+                src="./images/create-new-view.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <p>Future Of works</p>
+              <h1>The cost of businesses as usual in the AI era.</h1>
+            </div>
+            <div>Learn More</div>
+          </article>
+          <article class="dd-card3">
+            <div>
+              <img
+                height="200px"
+                width="200px"
+                src="./images/create-new-view.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <p>Future Of works</p>
+              <h1>The cost of businesses as usual in the AI era.</h1>
+            </div>
+            <div>Learn More</div>
+          </article>
+          <article class="dd-card4">
+            <div>
+              <img
+                height="200px"
+                width="200px"
+                src="./images/create-new-view.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <p>Future Of works</p>
+              <h1>The cost of businesses as usual in the AI era.</h1>
+            </div>
+            <div>Learn More</div>
+          </article>
+        </div>
+      </section>
+      <!-- Something more about slack -->
+      <section class="deep-about">
         <p>
-          Get access to every file, decision and conversation, so you can build
-          on past work instead of recreating it.
+          1Based on an internal analysis during the pilot of AI in Slack
+          features (channel recaps, thread summaries and AI search answers).
         </p>
-      </div>
-      <div>
-        <div>
-          <div>
-            <h1>Meet SlackBot: Your personal agent for work</h1>
-            <p>
-              Slackbot isn’t just any AI. It’s AI that knows you and your team.
-              It coordinates work across your apps and agents so that one
-              conversation can get work done.
-            </p>
-            <a href="#">Learn more about slackbot</a>
-          </div>
-          <div>
-            <h1>One Seach to rule them all</h1>
-            <p>
-              AI-powered search puts your company’s entire memory at your
-              fingertips.
-            </p>
-            <a href="#">Learn about AI-powered search</a>
-          </div>
-          <div>
-            <h1>Bring CRM data to the conversations</h1>
-            <p>
-              Customer insights now live alongside conversations, so deals keep
-              moving forward
-            </p>
-            <a href="#">Learn about salesforce in slack</a>
-          </div>
-          <div>
-            <h1>97 mins</h1>
-            <p>Average time that users can save weekly with AI in Slack1</p>
-          </div>
-        </div>
-        <div>
-          <img
-            height="200px"
-            width="200px"
-            src="./images/slackbot-email-calendar.png"
-            alt="emails"
-          />
-        </div>
-      </div>
-    </div>
-
-    <div class="people" id="people">
-      <div>
-        <h1>Give everyone instant context.</h1>
         <p>
-          Get access to every file, decision and conversation, so you can build
-          on past work instead of recreating it.
+          2FY24 Customer Success Metrics. Base: Total n = 247–1,696, Slack
+          internal data.
         </p>
-      </div>
-      <div>
-        <div>
-          <div>
-            <h1>Meet SlackBot: Your personal agent for work</h1>
-            <p>
-              Slackbot isn’t just any AI. It’s AI that knows you and your team.
-              It coordinates work across your apps and agents so that one
-              conversation can get work done.
-            </p>
-            <a href="#">Learn more about slackbot</a>
-          </div>
-          <div>
-            <h1>One Seach to rule them all</h1>
-            <p>
-              AI-powered search puts your company’s entire memory at your
-              fingertips.
-            </p>
-            <a href="#">Learn about AI-powered search</a>
-          </div>
-          <div>
-            <h1>Bring CRM data to the conversations</h1>
-            <p>
-              Customer insights now live alongside conversations, so deals keep
-              moving forward
-            </p>
-            <a href="#">Learn about salesforce in slack</a>
-          </div>
-          <div>
-            <h1>97 mins</h1>
-            <p>Average time that users can save weekly with AI in Slack1</p>
-          </div>
-        </div>
-        <div>
-          <img
-            height="200px"
-            width="200px"
-            src="./images/slackbot-email-calendar.png"
-            alt="emails"
-          />
-        </div>
-      </div>
-    </div>
-
-    <!-- Process -->
-    <div class="process" id="process">
-      <div>
-        <h1>Give everyone instant context.</h1>
+        <p>3FY25 Slack internal data, product usage analysis.</p>
         <p>
-          Get access to every file, decision and conversation, so you can build
-          on past work instead of recreating it.
+          4FY25 Slack Customer Tracking Survey. Internal survey of weekly active
+          Slack users in the US, UK, CA and AU. Total n = 2,410.
         </p>
-      </div>
-      <div>
-        <div>
-          <div>
-            <h1>Meet SlackBot: Your personal agent for work</h1>
-            <p>
-              Slackbot isn’t just any AI. It’s AI that knows you and your team.
-              It coordinates work across your apps and agents so that one
-              conversation can get work done.
-            </p>
-            <a href="#">Learn more about slackbot</a>
-          </div>
-          <div>
-            <h1>One Seach to rule them all</h1>
-            <p>
-              AI-powered search puts your company’s entire memory at your
-              fingertips.
-            </p>
-            <a href="#">Learn about AI-powered search</a>
-          </div>
-          <div>
-            <h1>Bring CRM data to the conversations</h1>
-            <p>
-              Customer insights now live alongside conversations, so deals keep
-              moving forward
-            </p>
-            <a href="#">Learn about salesforce in slack</a>
-          </div>
-          <div>
-            <h1>97 mins</h1>
-            <p>Average time that users can save weekly with AI in Slack1</p>
-          </div>
-        </div>
-        <div>
-          <img
-            height="200px"
-            width="200px"
-            src="./images/slackbot-email-calendar.png"
-            alt="emails"
-          />
-        </div>
-      </div>
-    </div>
-
-    <!--  Platform -->
-    <div class="platform" id="platform">
-      <div>
-        <h1>Give everyone instant context.</h1>
         <p>
-          Get access to every file, decision and conversation, so you can build
-          on past work instead of recreating it.
+          5G2 spring 2026 market reports for work management, workflow
+          management, project collaboration software, enterprise search,
+          knowledge base, employee Q&A, audio conferencing, business instant
+          messaging, unified workspaces and more.
         </p>
-      </div>
+      </section>
+
       <div>
+        <h1>See all that you can accomplish in Slack.</h1>
         <div>
-          <div>
-            <h1>Meet SlackBot: Your personal agent for work</h1>
-            <p>
-              Slackbot isn’t just any AI. It’s AI that knows you and your team.
-              It coordinates work across your apps and agents so that one
-              conversation can get work done.
-            </p>
-            <a href="#">Learn more about slackbot</a>
-          </div>
-          <div>
-            <h1>One Seach to rule them all</h1>
-            <p>
-              AI-powered search puts your company’s entire memory at your
-              fingertips.
-            </p>
-            <a href="#">Learn about AI-powered search</a>
-          </div>
-          <div>
-            <h1>Bring CRM data to the conversations</h1>
-            <p>
-              Customer insights now live alongside conversations, so deals keep
-              moving forward
-            </p>
-            <a href="#">Learn about salesforce in slack</a>
-          </div>
-          <div>
-            <h1>97 mins</h1>
-            <p>Average time that users can save weekly with AI in Slack1</p>
-          </div>
+          <a href="#get-started">Get Started</a>
+          <a href="#demo">Request a Demo</a>
         </div>
         <div>
-          <img
-            height="200px"
-            width="200px"
-            src="./images/slackbot-email-calendar.png"
-            alt="emails"
-          />
-        </div>
-      </div>
-    </div>
-
-    <!-- more about -->
-    <div>
-      <div>
-        <h1>The most innovative companies run their business in Slack.</h1>
-      </div>
-      <div>
-        <!-- Add four videos here -->
-        <video src="./images/A Slack channel shows.mp4"></video>
-      </div>
-      <div>
-        <button>GET STARTED</button>
-        <button>FIND YOUR SUBSCRIPTION</button>
-      </div>
-    </div>
-
-    <!-- Testemonial -->
-    <div class="testemonial" id="testemonial">
-      <div>
-        <h1>We’re in the business of growing businesses.</h1>
-      </div>
-      <div>
-        <div class="teste-card1">
-          <h1>90%</h1>
-          <p>
-            of users say that Slack helps them to stay more connected<sup
-              >4</sup
-            >
-          </p>
-        </div>
-        <div class="teste-card2">
-          <h1>43</h1>
-          <p>The average number of apps used by teams in Slack<sup>3</sup></p>
-        </div>
-        <div class="teste-card3">
-          <h1>87%</h1>
-          <p>
-            of users say that Slack helps them to collaborate more
-            efficiently<sup>4</sup>
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <!-- People Loved Part -->
-    <div>
-      <div>
-        <h1>Millions of people love to work in Slack.</h1>
-      </div>
-      <div>
-        <div>
-          <div>
-            <h1>700M</h1>
-            <p>messages sent daily<sup>3</sup></p>
-          </div>
-          <div>
-            <h1>3M</h1>
-            <p>
-              Slack Connect users working directly with external teams each
-              week<sup>3</sup>
-            </p>
-          </div>
-          <div>
-            <h1>4M</h1>
-            <p>daily workflows<sup>3</sup></p>
-          </div>
-          <div>
-            <h1>1.7M</h1>
-            <p>apps actively used each week<sup>3</sup></p>
-          </div>
-        </div>
-
-        <!-- This div is for vertical line -->
-        <div></div>
-
-        <div>
-          <div>
-            <h3>Don’t just take our word for it.</h3>
-            <p>Slack is a leader in over 303 G2 market reports.</p>
-          </div>
-          <div>
-            <img
-              height="200px"
-              width="200px"
-              src="./images/G2_Leader_mid_market_spring_2026.png"
-              alt=""
-            />
-            <img
-              height="200px"
-              width="200px"
-              src="./images/G2_Leader_mid_market_spring_2026.png"
-              alt=""
-            />
-            <img
-              height="200px"
-              width="200px"
-              src="./images/G2_Leader_mid_market_spring_2026.png"
-              alt=""
-            />
-            <img
-              height="200px"
-              width="200px"
-              src="./images/G2_Leader_mid_market_spring_2026.png"
-              alt=""
-            />
-            <img
-              height="200px"
-              width="200px"
-              src="./images/G2_Leader_mid_market_spring_2026.png"
-              alt=""
-            />
-            <img
-              height="200px"
-              width="200px"
-              src="./images/G2_Leader_mid_market_spring_2026.png"
-              alt=""
-            />
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Slack DEEP DIVE -->
-    <div>
-      <div>
-        <h2>Your Slack deep dive starts here.</h2>
-      </div>
-      <div>
-        <div class="dd-card1">
-          <div>
-            <img
-              height="200px"
-              width="200px"
-              src="./images/create-new-view.png"
-              alt=""
-            />
-          </div>
-          <div>
-            <p>Future Of works</p>
-            <h1>The cost of businesses as usual in the AI era.</h1>
-          </div>
-          <div>Learn More</div>
-        </div>
-        <div class="dd-card2">
-          <div>
-            <img
-              height="200px"
-              width="200px"
-              src="./images/create-new-view.png"
-              alt=""
-            />
-          </div>
-          <div>
-            <p>Future Of works</p>
-            <h1>The cost of businesses as usual in the AI era.</h1>
-          </div>
-          <div>Learn More</div>
-        </div>
-        <div class="dd-card3">
-          <div>
-            <img
-              height="200px"
-              width="200px"
-              src="./images/create-new-view.png"
-              alt=""
-            />
-          </div>
-          <div>
-            <p>Future Of works</p>
-            <h1>The cost of businesses as usual in the AI era.</h1>
-          </div>
-          <div>Learn More</div>
-        </div>
-        <div class="dd-card4">
-          <div>
-            <img
-              height="200px"
-              width="200px"
-              src="./images/create-new-view.png"
-              alt=""
-            />
-          </div>
-          <div>
-            <p>Future Of works</p>
-            <h1>The cost of businesses as usual in the AI era.</h1>
-          </div>
-          <div>Learn More</div>
-        </div>
-      </div>
-    </div>
-    <!-- Something more about slack -->
-    <div>
-      <p>
-        1Based on an internal analysis during the pilot of AI in Slack features
-        (channel recaps, thread summaries and AI search answers).
-      </p>
-      <p>
-        2FY24 Customer Success Metrics. Base: Total n = 247–1,696, Slack
-        internal data.
-      </p>
-      <p>3FY25 Slack internal data, product usage analysis.</p>
-      <p>
-        4FY25 Slack Customer Tracking Survey. Internal survey of weekly active
-        Slack users in the US, UK, CA and AU. Total n = 2,410.
-      </p>
-      <p>
-        5G2 spring 2026 market reports for work management, workflow management,
-        project collaboration software, enterprise search, knowledge base,
-        employee Q&A, audio conferencing, business instant messaging, unified
-        workspaces and more.
-      </p>
-    </div>
-
-    <div>
-      <h1>See all that you can accomplish in Slack.</h1>
-      <div>
-        <button>Get Started</button>
-        <button>Request a Demo</button>
-      </div>
-      <div>
-        <select name="region" id="region">
+          <select name="region" id="region">
             <option value="00" selected>select region</option>
             <option value="01">India</option>
             <option value="02">Africa</option>
             <option value="03">Mosco</option>
             <option value="04">Thiland</option>
-        </select>
+          </select>
 
-        <!-- For all social links -->
-        <ul>
-            <li><a href="#">Instagram</a></li>
-            <li><a href="#">Youtube</a></li>
-            <li><a href="#">LinkedIn</a></li>
-            <li><a href="#">Facebook</a></li>
-            <li><a href="#">Twitter</a></li>
-        </ul>
+          <!-- For all social links -->
+          <ul>
+            <li><a href="#instagram">Instagram</a></li>
+            <li><a href="#youtube">Youtube</a></li>
+            <li><a href="#linkedin">LinkedIn</a></li>
+            <li><a href="#facebook">Facebook</a></li>
+            <li><a href="#twitter">Twitter</a></li>
+          </ul>
+        </div>
       </div>
-    </div>
+    </main>
 
     <!-- Footer  -->
     <footer>
@@ -677,17 +730,19 @@
       </div>
     </footer>
     <div>
-        <div>
-            <a href="#">Download slack</a>
-            <a href="#">Privacy</a>
-            <a href="#">Terms</a>
-            <a href="#">Cookies preferences</a>
-            <a href="#">Your Privacy Choice</a>
-        </div>
-        <div>
-            <p>© 2023 Slack Technologies, LLC, a Salesforce company. All rights reserved. Various trademarks held by their respective owners.</p>
-        </div>
+      <div>
+        <a href="#download-slack">Download slack</a>
+        <a href="#privacy">Privacy</a>
+        <a href="#terms">Terms</a>
+        <a href="#cookie-preferences">Cookies preferences</a>
+        <a href="#privacy">Your Privacy Choice</a>
+      </div>
+      <article>
+        <p>
+          © 2023 Slack Technologies, LLC, a Salesforce company. All rights
+          reserved. Various trademarks held by their respective owners.
+        </p>
+      </article>
     </div>
-
   </body>
 </html>
