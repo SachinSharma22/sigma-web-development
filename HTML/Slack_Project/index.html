@@ -27,7 +27,7 @@
         <div>
           <div class="nav-actions">
             <a href="./login.html">sign in</a>
-            <a href="#request-demo">Request a demo</a>
+            <a href="./demo.html">Request a demo</a>
             <a href="./signup.html">Get started</a>
           </div>
         </div>
@@ -73,9 +73,9 @@
         <img src="./images/ibm.png" alt=" ibm" />
       </article>
 
-      <div class="show">
-        <video src="./images/A Slack channel shows.mp4"></video>
-      </div>
+      <video controls class="show" height="300px">
+        <source src="./images/A Slack channel shows.mp4" type="video/mp4" />
+      </video>
 
       <div>
         <a href="#">Ask Slackbot</a>
@@ -105,9 +105,9 @@
             <a href="#">Review code with GitHub Copilot</a>
             <a href="#">Look up customer data in Agentforce</a>
           </div>
-          <article>
-            <video src="./images/A Slack channel shows.mp4"></video>
-          </article>
+          <video controls class="show" height="300px">
+            <source src="./images/A Slack channel shows.mp4" type="video/mp4" />
+          </video>
         </div>
       </section>
 
@@ -119,7 +119,10 @@
         </div>
 
         <!-- Cards  -->
-        <div class="cards">
+        <div
+          style="display: flex; gap: 20px; list-style: none; flex-wrap: wrap"
+          class="cards"
+        >
           <article class="card1" id="card1">
             <div>
               <img
@@ -455,7 +458,9 @@
         </div>
         <div>
           <!-- Add four videos here -->
-          <video src="./images/A Slack channel shows.mp4"></video>
+          <video controls class="show" height="300px">
+            <source src="./images/A Slack channel shows.mp4" type="video/mp4" />
+          </video>
         </div>
         <div>
           <a href="./signup.html">GET STARTED</a>
@@ -527,7 +532,14 @@
               <h3>Don’t just take our word for it.</h3>
               <p>Slack is a leader in over 303 G2 market reports.</p>
             </header>
-            <div>
+            <div
+              style="
+                display: flex;
+                gap: 50px;
+                list-style: none;
+                flex-wrap: wrap;
+              "
+            >
               <figure>
                 <img
                   height="200px"
@@ -601,7 +613,9 @@
         <div>
           <h2>Your Slack deep dive starts here.</h2>
         </div>
-        <div>
+        <div
+          style="display: flex; gap: 50px; list-style: none; flex-wrap: wrap"
+        >
           <article class="dd-card1">
             <div>
               <img
@@ -691,7 +705,7 @@
         <h1>See all that you can accomplish in Slack.</h1>
         <div>
           <a href="./signup.html">Get Started</a>
-          <a href="#demo">Request a Demo</a>
+          <a href="./demo.html">Request a Demo</a>
         </div>
         <div>
           <select name="region" id="region">
@@ -703,14 +717,22 @@
           </select>
 
           <!-- For all social links -->
-          <ul>
+          <ul style="display: flex; gap: 50px; list-style: none">
             <li>
-              <a href="#instagram"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="#instagram"><i class="fa-brands fa-instagram"></i></a>
             </li>
-            <li><a href="#youtube">Youtube</a></li>
-            <li><a href="#linkedin">LinkedIn</a></li>
-            <li><a href="#facebook">Facebook</a></li>
-            <li><a href="#twitter">Twitter</a></li>
+            <li>
+              <a href="#youtube"><i class="fa-brands fa-youtube"></i></a>
+            </li>
+            <li>
+              <a href="#linkedin"><i class="fa-brands fa-linkedin"></i></a>
+            </li>
+            <li>
+              <a href="#facebook"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#twitter"><i class="fa-solid fa-xmark"></i></a>
+            </li>
           </ul>
         </div>
       </div>
@@ -729,9 +751,9 @@
       </div>
       <div>
         <ul>
-          <li><a>sign in</a></li>
-          <li><button>Request a demo</button></li>
-          <li><button>Get started</button></li>
+          <li><a href="./login.html">sign in</a></li>
+          <li><a href="./demo.html">Request a demo</a></li>
+          <li><a href="./signup.html">Get started</a></li>
         </ul>
       </div>
     </footer>

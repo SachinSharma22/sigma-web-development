@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slack AI | Demo registration</title>
+  </head>
+  <body>
+    <a href="./index.html">
+        <img src="./images/slack_logo.png" alt="slack_logo">
+    </a>
+    <section id="demo" class="demo">
+      <div class="demo-desc">
+        <article>
+          <header>
+            <h2>Contact our sales team</h2>
+            <p>
+              We're happy to answer questions and get you acquainted with Slack.
+            </p>
+          </header>
+          <div>
+            <p>Schedule a demo</p>
+            <p>Get pricing information</p>
+            <p>Explore use cases for your team</p>
+            <p>
+              For technical issues and product questions, please visit our
+              <a href="#help-center">Help Center</a>.
+            </p>
+          </div>
+        </article>
+
+        <article>
+          <h2>Incredible companies use Slack</h2>
+          <div>
+            <figure>
+              <img src="./images/logo-zomato.png" alt="logo-zomato" />
+            </figure>
+            <figure>
+              <img src="./images/logo-swiggy.png" alt="logo-swiggy" />
+            </figure>
+            <figure>
+              <img src="./images/logo-razorpay.png" alt="logo-razorpay" />
+            </figure>
+          </div>
+          <hr style="margin: 20px" />
+
+          <figure>
+            <img src="./images/logo-meesho.png" alt="logo-meesho" />
+          </figure>
+
+          <p>
+            'With Slack, everything happens in one channel, and what used to
+            take a couple of days is now resolved in a matter of hours.'
+          </p>
+
+          <article>
+            <h3>Shikhar Saxena</h3>
+            <p>Group Product Manager, Meesho</p>
+          </article>
+        </article>
+      </div>
+
+      <!-- Form to book Demo -->
+
+      <form class="demo-form" action="_blank">
+        <div class="name-sec">
+          <div>
+            <label for="fname" id="fname">First Name</label>
+            <input
+              type="text"
+              id="fname"
+              name="fname"
+              placeholder="Your first name"
+              required
+            />
+          </div>
+          <div>
+            <label for="lname" id="lname">Last Name</label>
+            <input
+              type="text"
+              id="lname"
+              name="lname"
+              placeholder="Your surname"
+              required
+            />
+          </div>
+        </div>
+
+        <div class="email-role-sec">
+          <div>
+            <label for="email" id="email">Work email address</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div>
+            <label for="role" id="role">Role</label>
+            <select name="role" id="role">
+              <option value="00" selected>Please select one</option>
+              <option value="01">CXO</option>
+              <option value="02">VP</option>
+              <option value="03">Director</option>
+              <option value="04">Manager</option>
+              <option value="05">Contributor</option>
+            </select>
+          </div>
+        </div>
+
+        <article>
+          <select name="company-region" id="company-region" required>
+            <option value="00" selected>India</option>
+            <option value="01">Russia</option>
+            <option value="02">Nepal</option>
+            <option value="03">China</option>
+            <option value="04">Dubai</option>
+          </select>
+        </article>
+
+        <div class="company-size-sec">
+          <div>
+            <label for="company" id="company">Company</label>
+            <input
+              type="text"
+              id="company"
+              name="company"
+              placeholder="A1 private ltd."
+              required
+            />
+          </div>
+          <div>
+            <label for="comp-size" id="comp-size">Company size</label>
+            <select name="comp-size" id="comp-size">
+              <option value="00" selected>Please select one</option>
+              <option value="01">1-15</option>
+              <option value="02">16-100</option>
+              <option value="03">101-150</option>
+              <option value="04">151-250</option>
+              <option value="05">251=500</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="phone-sec">
+          <div>
+            <label for="phone" id="phone">Phone Number</label>
+            <input
+              type="number"
+              id="phone"
+              name="phone"
+              placeholder="+91 5555 55555"
+              required
+            />
+          </div>
+          <div>
+            <label for="ads" id="ads">How can our sales team help you?</label>
+            <select name="ads" id="ads">
+              <option value="00" selected>Please select one</option>
+              <option value="01">
+                I want to evaluate slack for my organization
+              </option>
+              <option value="02">
+                I want to understand which slack version is best for me.
+              </option>
+              <option value="03">I want to buy licence or upgrade</option>
+              <option value="04">I have a product question</option>
+              <option value="05">I need a compliance plan</option>
+            </select>
+          </div>
+        </div>
+
+        <article>
+          <label for="more-data">Anything else?</label>
+          <textarea
+            name="more-data"
+            id="more-data"
+            cols="60"
+            rows="5"
+            placeholder="What challenges are you looking to overcome with slack?"
+          ></textarea>
+        </article>
+
+        <article>
+          <p>
+            We value your privacy. To learn more, visit our
+            <a href="#privacy">Privacy Statement</a>
+          </p>
+        </article>
+        <p>Fields marked with an asterisk (*) are required.</p>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </body>
+</html>
