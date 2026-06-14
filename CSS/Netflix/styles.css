@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.login-sec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo {
+  width: 252px;
+  height: 65px;
+}
+
+.login-sec select {
+  margin-right: 10px;
+  width: 200px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  border: #ccc solid 2px;
+}
+
+.btn-style {
+  background-color: #e50914;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.hero-section {
+  text-align: center;
+  padding: 50px;
+  background-image: url("./assests/images/HeroBG.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: #fff;
+}
+
+.hero-content {
+
+  margin: 0 auto;
+  max-width: 800px;
+
+}
