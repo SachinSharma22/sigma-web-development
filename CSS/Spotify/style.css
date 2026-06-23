@@ -149,3 +149,42 @@ a {
     border: none;
     width: fit-content;
 }
+
+.dark-bedge {
+    background-color: black;
+    color: white;
+    border-radius: 100px;
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+    display: inline-block;
+    outline: none;
+    border: none;
+    width: fit-content;
+}
+
+/* main styles */
+
+.sticky-nav {
+  position: sticky;
+  top: 0;
+  background-color: #121212;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0.75rem;
+  z-index: 10;
+}
+
+.sticky-nav-options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media (max-width: 1000px) {
+    .hide {
+        display: none;
+    }
+}
