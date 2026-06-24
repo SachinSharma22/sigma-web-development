@@ -1,0 +1,53 @@
+/* backgroung-color - 1A1613, #11100E
+color - #B4A897 */
+/* border: 1px solid #243A24
+box-shadow - 0 0 20px rgba(255, 255, 255, 0.1) 
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, Tahoma, "Segoe UI", ui-sans-serif, Arial, "Trebuchet MS", Verdana, sans-serif;
+}
+
+header {
+    background-color: #1A1613;
+    color: #B4A897;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+.header {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.header img {
+    width: 6.5rem;
+    height: 6.5rem;
+    margin-right: 10px;
+}
+
+.header h1 {
+    color: #CBB789;
+    margin-bottom: 0.75rem;
+}
+
+.header p {
+    color: #A8977F;
+    font-size: 1.2rem;
+}
+
+.super{
+    font-size: 0.5rem;
+}
+
+.slogan {
+    text-align: left;
+}
