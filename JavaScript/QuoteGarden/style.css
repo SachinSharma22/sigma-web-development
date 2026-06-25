@@ -19,6 +19,10 @@ header {
     color: #B4A897;
     padding: 1rem;
     text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #2E3A2C;
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
 }
 
@@ -50,4 +54,34 @@ header {
 
 .slogan {
     text-align: left;
+}
+
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.nav-list li a {
+    color: #B4A897;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+    transition: background-color 0.3s ease;
+    font-size: 1.25rem;
+}
+
+@media (max-width: 900px) {
+    header {
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+}
+
+main {
+    background-color: #1A1613;
 }
