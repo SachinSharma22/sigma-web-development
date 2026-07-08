@@ -18,3 +18,13 @@ let resultGPA = arr.map((el) => {
 })
 
 console.log(resultGPA)
+
+// Filter method
+
+let nums = [2,3,4,5,6,7,8,9,0];
+
+let even = nums.filter((el) => 
+    (el % 2 == 0)
+)
+
+console.log(even)
