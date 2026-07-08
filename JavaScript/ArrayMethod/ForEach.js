@@ -10,3 +10,9 @@ arr.forEach((element, index) => {
 arr.forEach((element, index, array) => {
     console.log(element, index, array);
 });
+
+arr.forEach((element, index, arr) => {
+    arr[index] = element*2;
+})
+
+console.log(arr);
