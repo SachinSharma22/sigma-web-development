@@ -25,6 +25,11 @@ function saveToDb(data) {
 saveToDb("Sachin Sharma")
   .then((res) => {
     console.log(res);
+    return saveToDb("Saurabh Sharma");
+  })
+  .then((res) => {
+    console.log(res);
+    return saveToDb("Surubhi Sharma"); 
   })
   .catch((err) => {
     console.log(err);
